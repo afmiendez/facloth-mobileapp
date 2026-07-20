@@ -33,7 +33,8 @@ All database writes and deletions are strictly bound to verified user tokens via
 Subjected the entire application layer to thorough system integration and black-box testing routines to map layout bottlenecks, media playback latency, and asynchronous data conflicts. Successfully handled the end-to-end bundling, compilation, and distribution release cycle directly to the Google Play Store environment.
 
 ## Screenshots
-<img width="383" height="837" alt="image" src="https://github.com/user-attachments/assets/9952bcac-0e94-4ae0-86e6-2006ad2df890" /> <img width="373" height="831" alt="image" src="https://github.com/user-attachments/assets/7807a523-79af-470e-96cb-3ac28bd54f3a" />
+<img width="383" height="837" alt="image" src="https://github.com/user-attachments/assets/9952bcac-0e94-4ae0-86e6-2006ad2df890" /> <img width="373" height="831" alt="image" src="https://github.com/user-attachments/assets/7807a523-79af-470e-96cb-3ac28bd54f3a" /> <img width="374" height="825" alt="image" src="https://github.com/user-attachments/assets/523cf390-1137-49e3-94ef-37db1ea6eb70" />
+
 
 
 
