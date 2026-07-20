@@ -12,7 +12,6 @@ Building Facloth taught me a lot about structuring non-relational databases for 
 * **Inline Showcase Playback:** Video integration that automatically loops short video showcases on mute directly inside the feed.
 * **Social Connections Graph:** A follow network that instantly updates follower and following counts across profiles.
 * **Privacy & Block Controls:** A reliable moderation system that handles immediate, bidirectional blocking across profiles, posts, and activities.
-* **Custom UI Interceptors:** Clean, theme-compliant modal alerts that replace generic system dialogs during sensitive actions like blocking or signing out.
 
 ## Tech Stack
 
