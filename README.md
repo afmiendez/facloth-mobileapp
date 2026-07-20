@@ -24,9 +24,6 @@ Building Facloth taught me a lot about structuring non-relational databases for 
 ### Database & Index Optimization
 The app avoids slow database operations by isolating user data into structured sub-collections. To look up data across these nested paths safely without query failures, I manually set up Single Field Index Exemptions with a Collection Group Scope in the Firebase console. This ensures that lookups filter user keys efficiently without running into missing index errors.
 
-### Custom Interceptor Lifecycles
-To keep the design completely consistent, I replaced native OS alerts with custom modal components. The warning interfaces rely on simple React state hooks (`showBlockWarning`, `showDeleteWarning`) to toggle visibility. The modal container uses absolute dimensions and explicit z-index layering to temporarily block underlying layout interactions while a user confirms an action.
-
 ### Security & Data Protection
 All database writes and deletions are strictly bound to verified user tokens via the authentication pipeline. Before changing any data, the app verifies that the target document’s owner ID matches the active user's session token, ensuring users can only modify their own content.
 
