@@ -9,9 +9,11 @@ Building Facloth taught me a lot about structuring non-relational databases for 
 ## Features
 
 * **Outfit Discovery Feeds:** Visual grids that load high-resolution outfit photos quickly and efficiently.
-* **Inline Showcase Playback:** Video integration that automatically loops short video showcases on mute directly inside the feed.
+* **Showcases (Short Video Page):** Dedicated interface rendering full-screen short-form videos for quick outfit logging and inspiration.
+* **Real-time Messaging & DMs:** Private direct messaging subsystem utilizing active listeners to deliver messages instantly within target chat rooms.
+* **Inbox & Activity Notifications:** A unified notification center that tracks unread messages, direct follows, and social alerts in real-time.
 * **Social Connections Graph:** A follow network that instantly updates follower and following counts across profiles.
-* **Privacy & Block Controls:** A reliable moderation system that handles immediate, bidirectional blocking across profiles, posts, and activities.
+* **Privacy & Block Controls:** A reliable moderation system that handles immediate, bidirectional blocking across profiles, posts, chats, and notifications.
 
 ## Tech Stack
 
@@ -27,10 +29,12 @@ The app avoids slow database operations by isolating user data into structured s
 ### Security & Data Protection
 All database writes and deletions are strictly bound to verified user tokens via the authentication pipeline. Before changing any data, the app verifies that the target document’s owner ID matches the active user's session token, ensuring users can only modify their own content.
 
-### Production Lifecyle & Heavy Testing
+### Production Lifecycle & Heavy Testing
 Subjected the entire application layer to thorough system integration and black-box testing routines to map layout bottlenecks, media playback latency, and asynchronous data conflicts. Successfully handled the end-to-end bundling, compilation, and distribution release cycle directly to the Google Play Store environment.
 
 ## Screenshots
+<img width="383" height="837" alt="image" src="https://github.com/user-attachments/assets/9952bcac-0e94-4ae0-86e6-2006ad2df890" />
+
 
 ## Future Improvements
 
