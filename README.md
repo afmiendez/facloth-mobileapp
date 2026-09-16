@@ -34,6 +34,11 @@ Subjected the entire application layer to thorough system integration and black-
 
 ## Screenshots
 <img width="383" height="837" alt="image" src="https://github.com/user-attachments/assets/9952bcac-0e94-4ae0-86e6-2006ad2df890" /> <img width="373" height="831" alt="image" src="https://github.com/user-attachments/assets/7807a523-79af-470e-96cb-3ac28bd54f3a" /> <img width="374" height="825" alt="image" src="https://github.com/user-attachments/assets/523cf390-1137-49e3-94ef-37db1ea6eb70" />
+<img width="531" height="1157" alt="image" src="https://github.com/user-attachments/assets/7eb96752-47e6-418e-a140-60eee3ce3525" />
+<img width="536" height="1147" alt="image" src="https://github.com/user-attachments/assets/c2e0f32e-55c9-4270-af12-4b465a43176f" />
+<img width="542" height="1157" alt="image" src="https://github.com/user-attachments/assets/7e5cbb8a-0728-49ea-b61a-5f203ab34926" />
+
+
 
 
 
